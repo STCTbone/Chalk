@@ -1,5 +1,5 @@
 .container-fluid {
-	background:  rgba(120, 120, 120, 0.5) url(../img/sanami276_textures77/06.png);
+	background:  rgba(120, 120, 120, 0.5) url(../img/crumpled-paper.jpg);
 	background-size: cover;
 }
 
@@ -13,13 +13,16 @@
 }
 
 .navbar > * {
-	color: orange;
+	color: #f1f1f1;
 	background: none;
 	border: none;
 	box-shadow: none;
 
 }
 
+.navbar-inner > li {
+	color: white;
+}
 
 .img-rounded {
 	width: 140px;
