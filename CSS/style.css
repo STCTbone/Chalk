@@ -1,4 +1,32 @@
-#mainData {
+.container-fluid {
+	background:  rgba(120, 120, 120, 0.5) url(../img/crumpled-paper.jpg);
+	background-size: cover;
+}
+
+#main {
 	height: 400px;
-	background-image: url(../img/Pert_example_gantt_chart.gif);
+}
+
+#mainData {
+	
+	background-repeat: no-repeat;
+}
+
+.navbar > * {
+	color: #f1f1f1;
+	background: none;
+	border: none;
+	box-shadow: none;
+
+}
+
+.navbar-inner > li {
+	color: white;
+}
+
+.img-rounded {
+	width: 140px;
+	height: 140px;
+/* 	border: 2px solid #2e2f31; */
+	box-shadow: 1.5px 2px 13px #43475c;
 }
