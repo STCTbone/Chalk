@@ -30,3 +30,16 @@
 /* 	border: 2px solid #2e2f31; */
 	box-shadow: 1.5px 2px 13px #43475c;
 }
+
+td {
+	padding: 0px 5px;
+}
+
+.navbar .nav > li > a {
+  color: #d36c1c;
+}
+
+.active {
+	background: none;
+}
+
